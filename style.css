@@ -30,6 +30,17 @@
 	 html {
 		 font-size: 75%;
 	}
+	.components {
+		grid-template-columns: 10vmax 30vmax!;
+	}
+	h2 {
+    		font-size: 1.5vmax!;
+	}
+	.icon_ico {
+    		width: 4vmax!;
+    		height: 4vmax!;
+    		font-size: 2vmax!;
+	 }
 }
  #container {
 	 min-height: 100vh;
