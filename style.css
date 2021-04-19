@@ -46,7 +46,7 @@
 	 box-shadow: 0.8rem 0.8rem 1.4rem var(--greyLight-2), -0.2rem -0.2rem 1.8rem var(--white);
 	 padding: 4rem;
 	 display: grid;
-	 grid-template-columns: 10em 30rem;
+	 grid-template-columns: 22vh 60vh;
 	 grid-template-rows: repeat(autofit, min-content);
 	 grid-column-gap: 2rem;
 	 grid-row-gap: 2.5rem;
