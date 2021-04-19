@@ -1,6 +1,6 @@
 // ammount to add on each button press
-const confettiCount = 1000
-const sequinCount = 1000
+const confettiCount = 500
+const sequinCount = 400
 
 // "physics" variables
 const gravityConfetti = 0.3
