@@ -59,8 +59,8 @@
 	 grid-area: pp;
 }
  .pp img {
-	 width: 250px;
-	 padding: 20px;
+	 width : 18vmax;
+	 padding: 2vmax;
 	 margin: -15rem 0 0 0;
 	 border-radius: 10rem;
 	 box-shadow: 0.8rem 0.8rem 1.4rem var(--greyLight-2), -0.2rem -0.2rem 1.8rem var(--white);
