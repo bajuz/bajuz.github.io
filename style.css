@@ -3,7 +3,7 @@
 	 --primary: #6d5dfc;
 	 --primary-dark: #5b0eeb;
 	 --white: #fff;
-	 --greyLight-1: #e4ebf5;
+	 --greyLight-1: #373e57;
 	 --greyLight-2: #c8d0e7;
 	 --greyLight-3: #bec8e4;
 	 --greyDark: #9baacf;
@@ -13,10 +13,11 @@
 	 padding: 0;
 	 box-sizing: inherit;
 }
- canvas {
-	 height: 100%;
+ #canvas {
+	 height: 100vh;
 	 pointer-events: none;
 	 position: fixed;
+	 top: -10vh;
 	 width: 100%;
 }
  html {
@@ -24,7 +25,6 @@
 	 font-size: 62.5%;
 	 overflow-y: scroll;
 	 color: var(--greyDark);
-	 background: var(--greyLight-1);
 }
  @media screen and (min-width: 900px) {
 	 html {
@@ -44,7 +44,6 @@
 }
  .content {
 	 border-radius: 3rem;
-	 box-shadow: 0.8rem 0.8rem 1.4rem var(--greyLight-2), -0.2rem -0.2rem 1.8rem var(--white);
 	 padding: 4rem;
 	 display: grid;
 	 grid-template-columns: 7vmax 22vmax;
@@ -54,29 +53,17 @@
 	 grid-template-areas: "pp pp" ". .";
 	 align-items: center;
 	 text-align: center;
+	 background: linear-gradient(to bottom, #151728 0%, #151728 80%, rgba(21, 23, 40, 0) 100%);
 }
  .pp {
 	 grid-area: pp;
 }
  .pp img {
-	 width : 18vmax;
-	 padding: 2vmax;
+	 width: 20rem;
+	 padding: 2rem;
 	 margin: -15rem 0 0 0;
 	 border-radius: 10rem;
-	 box-shadow: 0.8rem 0.8rem 1.4rem var(--greyLight-2), -0.2rem -0.2rem 1.8rem var(--white);
-}
- .social {
-	 position: fixed;
-	 bottom: 0;
-	 border-radius: 3rem 3rem 0 0;
-	 box-shadow: 0.8rem 0.8rem 1.4rem var(--greyLight-2), -0.2rem -0.2rem 1.8rem var(--white);
-	 padding: 4rem;
-	 display: grid;
-	 grid-template-columns: 7vmax 22vmax;
-	 grid-template-rows: repeat(autofit, min-content);
-	 grid-column-gap: 2rem;
-	 grid-row-gap: 2.5rem;
-	 align-items: center;
+	 background: linear-gradient(to bottom, #151728 0%, #151728 76%, rgba(21, 23, 40, 0) 100%);
 }
 /* TOOLTIP */
  .tooltip {
@@ -113,7 +100,6 @@
 	 width: 3vmax;
 	 height: 3vmax;
 	 border-radius: 50%;
-	 box-shadow: 0.3rem 0.3rem 0.6rem var(--greyLight-2), -0.2rem -0.2rem 0.5rem var(--white);
 	 display: flex;
 	 justify-content: center;
 	 align-items: center;
