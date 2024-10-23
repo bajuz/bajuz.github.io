@@ -1,12 +1,12 @@
 :root {
 	 --primary-light: #8abdff;
-	 --primary: #3b9d73;
+	 --primary: #2bbf80;
 	 --primary-dark: #5b0eeb;
 	 --white: #fff;
-	 --greyLight-1: #d1e1ff;
-	 --greyLight-2: #c8d0e7;
+	 --greyLight-1: #5c77b1;
+	 --greyLight-2: #19253e;
 	 --greyLight-3: #bec8e4;
-	 --greyDark: #538e75;
+	 --greyDark: #3b9d73;
 }
  *, *::before, *::after {
 	 margin: 0;
@@ -71,7 +71,7 @@
 	 top: -20px;
 	 font-size: 14px;
 	 background-color: var(--greyDark);
-	 color: var(--greyLight-1);
+	 color: var(--greyLight-2);
 	 padding: 5px 8px;
 	 border-radius: 5px;
 	 box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
