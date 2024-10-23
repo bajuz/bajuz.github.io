@@ -33,6 +33,7 @@
 }
  h2 {
 	 font-size: 1.2vmax;
+	 margin-bottom: 1.5em;
 }
  #container {
 	 min-height: 100vh;
@@ -43,9 +44,9 @@
 	 background: var(--greyLight-1);
 }
  .content {
-	 border-radius: 3rem;
-	 padding: 4rem;
-	 display: grid;
+	 border-radius: 50rem 50rem 25rem 25rem;
+	 padding: 10rem 6rem 10rem;
+	 display: block;
 	 grid-template-columns: 7vmax 22vmax;
 	 grid-template-rows: repeat(autofit, min-content);
 	 grid-column-gap: 2rem;
